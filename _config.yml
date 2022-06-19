@@ -5,7 +5,7 @@ header-img:
 email: yanghu1919@qq.com
 description: "open source | For java python go tools  | HuTools"
 keyword: ""
-url: "https://test0001.sale"              # your host, for absolute URL
+url: "https://test001.sale"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
@@ -104,3 +104,11 @@ page-mathjax: false
 friends: [
 
 ]
+
+jekyll_admin:
+  hidden_links:
+    - posts
+    - pages
+    - staticfiles
+    - datafiles
+    - configuration
